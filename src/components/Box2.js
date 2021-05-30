@@ -7,7 +7,7 @@ export default function Box2() {
 
     return (
         <div>
-            <h1>B2</h1>
+            <h1>B2 {appReducer.count}</h1>
         </div>
     )
 }

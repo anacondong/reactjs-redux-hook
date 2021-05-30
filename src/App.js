@@ -5,6 +5,7 @@ import Box2 from './components/Box2'
 import Box3 from './components/Box3'
 import { useSelector,useDispatch } from 'react-redux'
 import * as appActions from './actions/app.action'
+import BoxUseEffect from './components/BoxUseEffect'
 export default function App() {
   // react state
   // const [count, setcount] = React.useState(0) 
@@ -26,6 +27,8 @@ export default function App() {
       <Box1 style={{}}/>
       <Box2/>
       <Box3/>
+      <hr/>
+      <BoxUseEffect/>
     </div>
   )
 }

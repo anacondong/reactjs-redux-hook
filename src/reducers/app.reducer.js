@@ -3,7 +3,6 @@ import { APP_ACTION_ADD, APP_ACTION_CLR, APP_ACTION_REM } from "../Constants"
 const initialState = {
     count: 0,
     user: { name: "Dong", password: "Don't know" }
-
 }
 
 export default (state = initialState, { type, payload }) => {
